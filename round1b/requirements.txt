@@ -1,0 +1,14 @@
+numpy
+scikit-learn
+langchain
+chromadb
+sentence-transformers
+faiss-cpu
+tiktoken
+unstructured
+<<<<<<< HEAD
+sentence-transformers
+faiss-cpu
+transformers
+=======
+>>>>>>> 81fe567cc01a3d74d4fc7653facdc662abe7e3a7

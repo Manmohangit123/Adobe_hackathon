@@ -1,0 +1,8 @@
+numpy
+scikit-learn
+langchain
+chromadb
+sentence-transformers
+faiss-cpu
+tiktoken
+unstructured

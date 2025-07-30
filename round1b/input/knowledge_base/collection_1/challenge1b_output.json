@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-30T10:07:08.358838"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing,",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Ultimate Guide to Activities and Things to Do in the South of France",
+      "importance_rank": 2,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Overview of the Region",
+      "importance_rank": 3,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Conclusion",
+      "importance_rank": 4,
+      "page_number": 12
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "section_title": "Comprehensive Guide to Restaurants and Hotels in the South of France",
+      "importance_rank": 5,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "The Ultimate South of France Travel Companion: Your Comprehensive Guide to Packing,  Planning, and Exploring  Introduction  Planning a trip to the South of France requires thoughtful preparation to ensure a  comfortable and enjoyable experience. This guide covers everything from packing essentials  to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with  kids, or in a group, this guide will help you make the most of your trip.      ",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "Ultimate Guide to Activities and Things to Do in the South of France  Introduction  The South of France, with its stunning coastline, picturesque villages, and vibrant cities, offers  a wealth of activities and experiences for travelers. Whether you're seeking adventure,  relaxation, or cultural enrichment, this region has something for everyone. This guide will  take you through a variety of activities and must-see attractions to help you plan an  unforgettable trip.      ",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Overview of the Region  The South of France, or \"Le Midi,\" encompasses the regions of Provence-Alpes-Côte d'Azur,  Occitanie, and parts of Nouvelle-Aquitaine. This area is renowned for its diverse landscapes,  from the sun-drenched beaches of the French Riviera to the rolling vineyards of Provence and  the rugged Pyrenees mountains. The Mediterranean climate ensures warm summers and  mild winters, making it a year-round destination. The South of France is also famous for its  cuisine, wines, and...",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Conclusion  The South of France offers a rich tapestry of history, culture, and architecture that is sure to  captivate any traveler. From the ancient Roman ruins of Nîmes and Arles to the medieval  fortresses of Carcassonne and Avignon, each city and town has its own unique story to tell.  Whether you're exploring the vibrant streets of Marseille, the elegant boulevards of Aix-en- Provence, or the charming squares of Montpellier, you'll find a wealth of historical treasures  waiting to be disco...",
+      "page_number": 12
+    },
+    {
+      "document": "South of France - Restaurants and Hotels.pdf",
+      "refined_text": "Comprehensive Guide to Restaurants and Hotels in the South of France  Introduction  The South of France, known for its stunning landscapes, rich cultural heritage, and exquisite  cuisine, is a dream destination for travelers. From the glamorous beaches of the French  Riviera to the charming villages of Provence, this region offers a diverse array of experiences.  Whether you're looking for budget-friendly options, family-friendly spots, upscale dining, or  luxurious experiences, this guide will...",
+      "page_number": 1
+    }
+  ]
+}
