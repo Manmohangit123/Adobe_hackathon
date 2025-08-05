@@ -1,4 +1,5 @@
 # Adobe india hackathon
+
 This Adobe india hackathon consists of two challenges
 
 they are done in two different files in this repository on the name of:
@@ -8,6 +9,7 @@ they are done in two different files in this repository on the name of:
 2.) Round 1b
 
 ## Round 1a:
+
 ## 📄 PDF Outline Extractor – Structured Understanding of Documents
 
 ### 💡 Problem Statement
@@ -26,6 +28,7 @@ This forms the foundation for intelligent applications like:
 ---
 
 ### 🎯 Objective
+
 Build a system that:
 - Accepts one or more PDF files (≤ 50 pages each)
 - Analyzes content structure
@@ -50,6 +53,7 @@ Build a system that:
 }
 
 ### 🚀 Features
+
 PDF Text & Style Extraction using PyMuPDF
 
 Font-Based Hierarchy Detection for heading classification
@@ -65,6 +69,7 @@ Offline RAG Pipeline for knowledge-based Q&A (no internet required)
 Dockerized for platform portability
 
 ### 🛠 Tech Stack
+
 Python – Core processing logic
 
 PyMuPDF (fitz) – PDF parsing & text extraction
@@ -76,6 +81,7 @@ SentenceTransformers – Embedding generation
 Docker – Deployment environment
 
 ### ⚙️ How It Works
+
 Text & Font Extraction – Extract text spans, sizes, positions per page.
 
 Font Size Ranking – Map most frequent large fonts to heading levels (H1–H3/H4).
@@ -89,15 +95,25 @@ JSON Output – Save outline and title to fileXX.json.
 RAG Pipeline (Optional) – Retrieve knowledge from local text files and answer queries.
 
 ### 📂 Project Structure
+
 pdf-outline-extractor/
+
 │── src/
-│   ├── pdf_outline_extractor.py   
-│   ├── vector_store.py            
-│   ├── rag_pipeline.py            
-│── input/                         
-│── output/                      
+
+│   ├── pdf_outline_extractor.py 
+
+│   ├── vector_store.py    
+
+│   ├── rag_pipeline.py 
+
+│── input/  
+
+│── output/ 
+
 │── requirements.txt
+
 │── Dockerfile
+
 │── README.md
 
 ### This repository contains solutions for Round 1a
@@ -107,6 +123,7 @@ Run this after navigating to round1a:
 python src\pdf_outline_extractor.py input\knowledge_base output
 
 ### 🔑 Environment Restrictions
+
 Runtime: ≤ 10 seconds per PDF
 
 CPU-only (no GPU)
@@ -116,6 +133,7 @@ No internet access during execution
 Model size ≤ 200MB
 
 ### 🐳 Docker Usage
+
 Build and run inside Docker:
 
 docker build -t pdf-outline-extractor .
@@ -168,28 +186,51 @@ Build an **offline, persona-aware PDF analysis engine** that:
 ### 📤 Sample Output JSON
 
 {
+
   "metadata": {
+    
     "documents": ["doc1.pdf", "doc2.pdf"],
+    
     "persona": "PhD Researcher in Computational Biology",
+    
     "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    
     "processed_on": "2025-07-28T14:35:00"
+  
   },
+  
   "results": [
+  
     {
+    
       "document": "doc1.pdf",
+      
       "page": 5,
+      
       "section_title": "Methodology and Benchmarking",
+      
       "importance_rank": 1,
+      
       "refined_text": "This section details datasets used for molecular prediction and compares three GNN models across performance metrics..."
+    
     },
+    
     {
+    
       "document": "doc2.pdf",
+      
       "page": 3,
+      
       "section_title": "Datasets in Drug Discovery",
+      
       "importance_rank": 2,
+      
       "refined_text": "Included datasets: PubChem, Tox21, SIDER. Key pre-processing techniques described..."
+    
     }
+  
   ]
+
 }
 
 ### 🚀 Features
@@ -205,6 +246,7 @@ Build an **offline, persona-aware PDF analysis engine** that:
 🐳 Dockerized for easy, offline deployment
 
 ### 🛠 Tech Stack
+
 Python – Core processing logic
 
 PyMuPDF – PDF parsing
@@ -218,6 +260,7 @@ Pickle – Offline vector storage
 Docker – Deployment & portability
 
 ### ⚙️ How It Works
+
 Document Loading (pdf_loader.py)
 
 Parse PDFs into raw text per page.
@@ -245,17 +288,29 @@ Ranked JSON results with title, page, doc name, and snippet.
 ### 📂 Project Structure
 
 persona-doc-intelligence/
+
 │── src/
+
 │   ├── pdf_loader.py
+
 │   ├── persona_embedder.py
+
 │   ├── vector_store.py
+
 │   ├── rag_pipeline.py
+
 │── input/
+
 │   ├── pdfs/          # Input documents
+
 │   ├── persona.json   # Example persona/task input
+
 │── output/
+
 │── requirements.txt
+
 │── Dockerfile
+
 │── README.md
 
 
