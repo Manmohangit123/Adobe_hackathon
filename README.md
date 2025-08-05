@@ -27,7 +27,6 @@ Build a system that:
 - Analyzes content structure
 - Returns hierarchical JSON outlines  
 **Example Output:**
-```json
 {
   "title": "Understanding AI",
   "outline": [
@@ -76,9 +75,6 @@ JSON Output – Save outline and title to fileXX.json.
 RAG Pipeline (Optional) – Retrieve knowledge from local text files and answer queries.
 
 ## 📂 Project Structure
-graphql
-Copy
-Edit
 pdf-outline-extractor/
 │── src/
 │   ├── pdf_outline_extractor.py   
@@ -107,21 +103,5 @@ Model size ≤ 200MB
 
 ## 🐳 Docker Usage
 Build and run inside Docker:
-
-bash
-Copy
-Edit
 docker build -t pdf-outline-extractor .
 docker run --rm pdf-outline-extractor
-## 📸 Sample Output
-json
-Copy
-Edit
-{
-  "title": "Computer Vision Basics",
-  "outline": [
-    { "level": "H1", "text": "1. Introduction to Vision", "page": 0 },
-    { "level": "H2", "text": "1.1 Image Representation", "page": 1 },
-    { "level": "H3", "text": "1.1.1 Pixel Operations", "page": 2 }
-  ]
-}
