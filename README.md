@@ -1,9 +1,10 @@
+# Adobe india hackathon
 This Adobe india hackathon consists of two challenges
 they are done in two different files in this repository on the name of:
 1.) Round 1a
 2.) Round 1b
 
-Round 1a:
+# Round 1a:
 # 📄 PDF Outline Extractor – Structured Understanding of Documents
 
 ## 💡 Problem Statement
@@ -27,15 +28,24 @@ Build a system that:
 - Analyzes content structure
 - Returns hierarchical JSON outlines  
 **Example Output:**
+
 {
+  
   "title": "Understanding AI",
+  
   "outline": [
+  
     { "level": "H1", "text": "Introduction", "page": 0 },
+  
     { "level": "H2", "text": "What is AI?", "page": 1 },
+  
     { "level": "H3", "text": "History", "page": 2 }
+  
   ]
+  
 }
-🚀 Features
+
+## 🚀 Features
 PDF Text & Style Extraction using PyMuPDF
 
 Font-Based Hierarchy Detection for heading classification
@@ -103,5 +113,9 @@ Model size ≤ 200MB
 
 ## 🐳 Docker Usage
 Build and run inside Docker:
+
 docker build -t pdf-outline-extractor .
+
 docker run --rm pdf-outline-extractor
+
+# Round 1b:
