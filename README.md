@@ -25,6 +25,8 @@ This forms the foundation for intelligent applications like:
 - Document summarization
 - Context-aware recommendation systems
 
+PROJECT REPORT : https://docs.google.com/document/d/1SMgWE0gMQS4mjRU-Bce3xzHNdy6ltMl4/edit?usp=sharing&ouid=112193649678331048435&rtpof=true&sd=true
+
 ---
 
 ### 🎯 Objective
@@ -150,6 +152,9 @@ The challenge: From a **set of related PDFs**, extract and rank sections **most 
 - A **persona role** (e.g., student, analyst, researcher)
 - A **task** they want to accomplish (e.g., "Prepare a literature review")
 
+
+PROJECT REPORT : https://docs.google.com/document/d/1VpEgobE_Is4y5HYsUE-9HEHwysmFDuAp/edit#heading=h.ov4zo4d8694n
+
 ---
 
 ### 🎯 Objective
@@ -180,7 +185,6 @@ Build an **offline, persona-aware PDF analysis engine** that:
     "task": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks"
     
   }
-  
 }
 
 ### 📤 Sample Output JSON
@@ -198,7 +202,6 @@ Build an **offline, persona-aware PDF analysis engine** that:
     "processed_on": "2025-07-28T14:35:00"
   
   },
-  
   "results": [
   
     {
@@ -230,7 +233,6 @@ Build an **offline, persona-aware PDF analysis engine** that:
     }
   
   ]
-
 }
 
 ### 🚀 Features
