@@ -29,6 +29,7 @@ PROJECT REPORT : https://docs.google.com/document/d/1SMgWE0gMQS4mjRU-Bce3xzHNdy6
 
 ---
 
+
 ### 🎯 Objective
 
 Build a system that:
@@ -96,6 +97,12 @@ JSON Output – Save outline and title to fileXX.json.
 
 RAG Pipeline (Optional) – Retrieve knowledge from local text files and answer queries.
 
+### Impact:
+
+Enabled semantic search, document summarization, and context-aware recommendations.
+
+Ran under 10s per PDF with CPU-only, model size ≤200MB.
+
 ### 📂 Project Structure
 
 pdf-outline-extractor/
@@ -153,7 +160,9 @@ The challenge: From a **set of related PDFs**, extract and rank sections **most 
 - A **task** they want to accomplish (e.g., "Prepare a literature review")
 
 
+
 PROJECT REPORT : https://docs.google.com/document/d/1VpEgobE_Is4y5HYsUE-9HEHwysmFDuAp/edit#heading=h.ov4zo4d8694n
+
 
 ---
 
@@ -230,10 +239,8 @@ Build an **offline, persona-aware PDF analysis engine** that:
       
       "refined_text": "Included datasets: PubChem, Tox21, SIDER. Key pre-processing techniques described..."
     
-    }
-  
-  ]
-}
+    }]}
+
 
 ### 🚀 Features
 
@@ -286,6 +293,12 @@ Retrieve top matching chunks using cosine similarity.
 Output
 
 Ranked JSON results with title, page, doc name, and snippet.
+
+### Impact:
+
+Personalized document navigation → e.g., a PhD researcher gets methods/datasets ranked higher, a student gets conceptual sections first.
+
+Supports literature review automation, research assistance, and enterprise knowledge mining.
 
 ### 📂 Project Structure
 
