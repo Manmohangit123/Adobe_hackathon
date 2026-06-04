@@ -344,3 +344,7 @@ python src/rag_pipeline.py --input input/knowledge_base/collection_2/challenge1b
 collection_3: python src/vector_store.py input/knowledge_base/collection_3 input/knowledge_base/collection_3
 
 python src/rag_pipeline.py --input input/knowledge_base/collection_3/challenge1b_input.json --vectorstore input/knowledge_base/collection_3/vector_store.pkl --output input/knowledge_base/collection_3/challenge1b_output.json
+
+
+
+Our project is RAG based Query system. this project is done using google collab when the user upload pdf to google collab. the text in the PDF will be divided into small textual chuncks and stored in VectorDB. now when the user asks the query in offline mode to our model the answer is retrieved from vectorDB by using Similarity search method. It is deployed using Docker.
